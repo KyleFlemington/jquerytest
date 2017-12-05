@@ -8,7 +8,8 @@ $(document).ready(function(){
 		e.preventDefault()
 		console.log('clicked')
 		const val = $("#color_name").val()
-		$("post__Body").append
+		console.log(val)
+		$(".post__Body").append(val)
 	})
 
 
